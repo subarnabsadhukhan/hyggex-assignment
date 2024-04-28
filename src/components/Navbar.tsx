@@ -53,6 +53,7 @@ const Navbar: FunctionComponent = () => {
                 {NAV_LINKS.map((link) => (
                   <a
                     href={link.href}
+                    key={link.name}
                     className=" group px-1 pt-1  font-inter text-lg  text-darkslategray-100  duration-200 hover:text-darkslateblue-200  active:scale-90   "
                   >
                     {link.name}

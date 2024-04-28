@@ -54,7 +54,7 @@ const FaqSection: FunctionComponent = () => {
                   leaveFrom=" scale-100 opacity-100"
                   leaveTo=" scale-95 opacity-0"
                 >
-                  <Disclosure.Panel as="p" className="mt-2 pr-12  ">
+                  <Disclosure.Panel as="div" className="mt-2 pr-12  ">
                     <p className=" text-gray-500 text-justify   text-base">
                       {faq.a}
                     </p>
